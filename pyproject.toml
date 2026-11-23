@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "game-asset-validator"
+version = "0.1.0"
+description = "Règles de validation d'assets de jeu 3D (nommage, budgets, UV, textures), indépendantes du logiciel 3D."
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+packages = ["game_asset_validator"]
